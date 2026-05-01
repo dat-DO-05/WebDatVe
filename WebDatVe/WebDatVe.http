@@ -1,0 +1,6 @@
+@WebDatVe_HostAddress = http://localhost:5019
+
+GET {{WebDatVe_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
