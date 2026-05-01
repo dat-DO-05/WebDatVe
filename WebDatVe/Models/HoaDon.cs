@@ -10,7 +10,7 @@ public class HoaDon
     public int idNguoiDung { get; set; }
     public DateTime ngayTao { get; set; }
     public decimal tongTien { get; set; }
-    public string trangThai { get; set; }
+    public required string trangThai { get; set; }
 
     public int? idKhuyenMai { get; set; }
 }
