@@ -4,7 +4,7 @@ namespace WebDatVe.Models;
 
 public class ChiTietHoaDon
 {
-    [Key]
+    [Key] 
     public int idChiTiet { get; set; }
 
     public int idHoaDon { get; set; }
